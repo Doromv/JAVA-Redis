@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.doromv.springdataredis.SpringDataRedisApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.244 s <<< FAILURE! - in com.doromv.springdataredis.SpringDataRedisApplicationTests
+testString  Time elapsed: 0.013 s  <<< ERROR!
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.doromv.springdataredis.SpringDataRedisApplicationTests': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.core.RedisTemplate<java.lang.String, java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.core.RedisTemplate<java.lang.String, java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+

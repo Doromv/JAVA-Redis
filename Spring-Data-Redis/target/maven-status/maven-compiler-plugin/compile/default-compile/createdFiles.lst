@@ -1,0 +1,2 @@
+com\doromv\config\RedisConfig.class
+com\doromv\springdataredis\SpringDataRedisApplication.class
